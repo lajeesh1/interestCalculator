@@ -78,3 +78,11 @@
   height: 75px;
 
 }
+.input input {
+  height: 50px;
+  width: 200px;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: #D6FF58;
+  border: #4B4B4B solid 1px;
+}

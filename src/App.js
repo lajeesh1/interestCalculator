@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./App.css";
 
 function InterestCalculator() {
   const [principal, setPrincipal] = useState("");
@@ -32,7 +33,7 @@ function InterestCalculator() {
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       <h1>Interest Calculator</h1>
 
-      <div>
+      <div className="input">
         <input
           type="number"
           placeholder="Principal Amount"
@@ -41,7 +42,7 @@ function InterestCalculator() {
         />
       </div>
 
-      <div>
+      <div className="input">
         <input
           type="number"
           placeholder="Rate of Interest (%)"
@@ -50,7 +51,7 @@ function InterestCalculator() {
         />
       </div>
 
-      <div>
+      <div className="input">
         <input
           type="number"
           placeholder="Time (years)"
