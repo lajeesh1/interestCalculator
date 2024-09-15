@@ -38,25 +38,28 @@ function App() {
             <p>Principal Amount</p>
             <input
               type="number"
+              placeholder="₹"
               value={principal}
               onChange={(e) => setPrincipal(e.target.value)}
             />
           </div>
 
           <div className="input interest">
-            <p>Rate of Interest (%)</p>
+            <p>Rate of Interest </p>
             <input
               type="number"
+              placeholder="%"
               value={rate}
               onChange={(e) => setRate(e.target.value)}
             />
           </div>
 
           <div className="input year">
-            <p>Loan Duration (Years)</p>
+            <p>Loan Duration </p>
             <input
               type="number"
               value={time}
+              placeholder="Years"
               onChange={(e) => setTime(e.target.value)}
             />
           </div>
